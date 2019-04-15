@@ -2,6 +2,7 @@ import Vue from 'vue/dist/vue.esm'// $mount(#要素ID)以外で読む場合、vu
 // import App from './App.vue'
 import formApp from './form_app.vue'
 import modal from './modal.vue'
+import accordion from './accordion.vue'
 
 // これを false に設定すると、 Vue の起動時のプロダクションのヒントが表示されなくなります。
 Vue.config.productionTip = false
@@ -15,7 +16,8 @@ new Vue({
   },
   components: {
     "form-app": formApp,
-    "modal-app": modal
+    "modal-app": modal,
+    "accordion-app": accordion
   },
   methods: {
   }
