@@ -1,9 +1,9 @@
 <template>
 
-  <section class="modal-card-body">
+  <div>
     <!-- Content ... -->
     モーダル内のコンテンツが入ります
-  </section>
+  </div>
 
 </template>
 

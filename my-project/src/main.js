@@ -9,6 +9,7 @@ Vue.config.productionTip = false
 new Vue({
   el:'#app',
   data: {
+    showModal: false,
     // message: 'Hello',
     // modalToggle: false, // true で表示。falseで非表示
   },
